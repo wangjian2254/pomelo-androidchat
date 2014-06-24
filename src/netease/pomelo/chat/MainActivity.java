@@ -31,7 +31,7 @@ public class MainActivity extends Activity implements OnClickListener {
 	private String[] users;
 	private ChatApplication chatApp;
 	private String reg = "^[a-zA-Z0-9_\u4e00-\u9fa5]{1,10}$";
-	private String test_host = "127.0.0.1";
+	private String test_host = "192.168.101.18";
 	private int test_port = 3014;
 
 	@Override
